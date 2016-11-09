@@ -52,6 +52,8 @@ Branching: How developers collaborate on projects
 
 #### So what is branching?
 
+Here's a change.
+
 Think of making a new branch like spinning up an alternate universe to play with. Each branch exists like a parallel dimension, side by side, for you to hack on.
 
 [![git branching](https://www.atlassian.com/git/images/tutorials/collaborating/using-branches/01.svg)](https://www.atlassian.com/git/tutorials/using-branches/git-branch)
