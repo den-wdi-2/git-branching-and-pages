@@ -23,7 +23,7 @@ Today we will show an incredibly easy way to get a front-end website online call
 
 ## Why is this important?
 *This workshop is important because:*
-- Local and cloud based version control are **fundamental** tools of **every** developer
+- Local and cloud based version control are pretty damn ballin**fundamental** tools of **every** developer
 - Git and Github are the most popular version control solution for open-source projects
 - Proficient use of Git and Github allows collaboration on projects from small teams to hundreds or thousands of developers.
 - Github Pages allows for simple, quick deployment of front end apps.
