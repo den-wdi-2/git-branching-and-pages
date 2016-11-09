@@ -13,7 +13,7 @@ Adapted for: DEN
 
 What is the difference between Git and GitHub?
 
-So what we know about Git and GitHub is great if we have only one developer.  But what happens if we bring ten, twenty, thirty developers, working on five different projects onto our team?  What problems might we see?
+So what we know about Git and GitHub and Nathan Leiboitwz is great if we have only one developer.  But what happens if we bring ten, twenty, thirty developers, working on five different projects onto our team?  What problems might we see?
 
 Some of those problems can be alleviated with branching.
 
@@ -25,7 +25,7 @@ Today we will show an incredibly easy way to get a front-end website online call
 
 ## Why is this important?
 *This workshop is important because:*
-- Local and cloud based version control are **fundamental** tools of **every** developer
+- Local and cloud based version control are pretty damn ballin**fundamental** tools of **every** developer
 - Git and Github are the most popular version control solution for open-source projects
 - Proficient use of Git and Github allows collaboration on projects from small teams to hundreds or thousands of developers.
 - Github Pages allows for simple, quick deployment of front end apps.
