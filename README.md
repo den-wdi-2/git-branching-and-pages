@@ -3,10 +3,13 @@ Market: SF
 Adapted for: DEN
 -->
 
-<!--This still takes a full hour and 15...git is hard, really hard-->
+Woah cool
 
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
+<!--9:08 -->
+<!--9:04 WDI4 -->
+<!--9:03 WDI5 -->
 <!--9:00 5 minutes -->
 
 <!-- So who remembers Git?
@@ -46,7 +49,11 @@ Today we will show an incredibly easy way to get a front-end website online call
 - **Explain** basic git commands like init, add, commit, push, pull and clone
 - **Fork and clone** remote repositories
 
+<!--9:07 WDI5 -->
+<!--9:11 -->
+<!--WDI4 9:08 -->
 <!--9:05 15 minutes -->
+<!--It is vitally important that you parking lot all questions in this section--most questions will be answered by activities by end of class-->
 
 ## Git Branching
 
@@ -202,6 +209,9 @@ You can `push` and `pull` those branches easily to save your work up in the clou
 
 > "Real programmers don't edit `master`." – Dave, the Programmer
 
+<!--9:20 WDI5 -->
+<!--9:26-->
+<!--9:25 WDI4 -->
 <!--9:20 5 minutes -->
 
 ## Practice thinking in "branches" - Discussion
@@ -214,6 +224,9 @@ Team up with the person next to you, and go through the following commands we've
 
 Based on what we've talked about, and before you jump into your terminal, discuss the correct commands you would have to use - and the correct order you would need to use them in - to repeat the process of creating a readme. Be aware of the "why" and that you may have to use some commands more than once.
 
+<!--9:25 WDI5 -->
+<!--9:35 -->
+<!--WDI4 9:30-->
 <!--9:25 10 minutes -->
 
 ## Branch, Push, Merge, Repeat - Independent Practice
@@ -231,28 +244,39 @@ Start by mimicking our example in one partner's Terminal – create a branch to 
 
 Once you've got it down, switch roles, and do the same process again, so you get in the habit of creating branches whenever you need to make changes.
 
+<!--While devs work on independent practice, get most of the next activity (pull request from instructor's fork) ready -->
+
+<!--9:45 talked about diff checking and answered pent-up Qns too -->
+<!--WDI4 9:37-->
+<!--WDI5 9:38 -->
 <!--9:35 10 minutes -->
 
 ## Create a pull request on GitHub - Catchup
 
 Before you can open a pull request, you must create a branch in your local repository, commit to it, and push the branch to a repository or fork on GitHub.
 
-<!--Do this on the git-branching-and-pages repo on my personal fork -->
+<!--Do this on the git-branching-and-pages repo on my personal fork, then turn over to devs -->
 
-For this example, you will fork and clone the current repo.  Then you will...
+Follow the instructions below to create a pull request:
 
+1. Fork and clone the current repo **into your work folder**
+1. Create a new branch using the method we just covered
+1. Make a small change to one of the files
+1. Push your branch up to your GitHub fork
 1. Visit the repository you pushed to
-2. Click the "Compare, review, create a pull request" button in the repository ![pr](https://cloud.githubusercontent.com/assets/40461/8229344/d344aa8e-15ad-11e5-8578-08893bcee335.jpg)
-
-3. You'll land right onto the compare page - you can click Edit at the top to pick a new branch to merge in, using the Head Branch dropdown.
-4. Select the target branch your branch should be merged to, using the Base Branch dropdown
+2. Click the `New pull request` button in the repository
+3. You'll land right onto the compare page - use the Head Branch dropdown to select the branch with your changes
+4. Use the Base Branch dropdown to select the target branch your branch should be merged to (big hint: it's `master`)
+  - A good mnemonic for this is "From Head to Base" ~ "From Head to Toe"
 5. Review your proposed change
-6. Click "Click to create a pull request" for this comparison
+6. Click `Click to create a pull request` for this comparison
 7. Enter a title and description for your pull request
-8. Click 'Send pull request'
+8. Click `Send pull request`
 
-<!--Have all students practice making a pull request for this repo -->
-
+<!--WDI5 9:45 after demo and Qns, coming back 9:55 -->
+<!--9:44 after demo finished WDI4 -->
+<!--9:52 after devs done WDI4 -->
+<!--10:15 -->
 <!--9:45 10 minutes -->
 
 ## GitHub pages - Demo
@@ -262,6 +286,8 @@ Now that you have had some good practice at branching and merging it's time to d
 We strongly encourage checking out the official [docs](https://pages.github.com/) and practice more at home.
 
 It's _super_ easy and - basically - all that needs to happen is the creation of a new branch called `gh-pages`.  
+
+Navigate back to your `branching-is-awesome` directory, and go through the steps below.
 
 As long as there is an index.html in your root directory...
 
@@ -274,15 +300,25 @@ echo "<h1> GitHub pages! </h1>" >> index.html
 ```bash
 git branch gh-pages
 git checkout gh-pages
+```
+
+Finally, you need to link this directory to a remote on GitHub.
+
+Create a `New Repository` on GitHub and `add` the `remote` URL of that repository.  If you're not sure how to do this, you can check out [this link](https://help.github.com/articles/adding-a-remote/).
+
+Then, push your changes up to your new repository:
+
+```bash
 git push origin gh-pages
 ```
 
 ...you'll be able to navigate to http://YOURUSERNAME.github.io/REPOSITORYNAME to view the rendered html. You can also point a new domain name to this URL; this would give you a fully deployed project with a custom URL.
 
-<!--Have all students make sure they are in the root of a git repository with `ls -al` and `git remote -v` 
+<!--Turning over to devs 10:00 WDI5, coming back 10:07 -->
+<!--Encourage devs to read any error messages, google them, and ask if still stuck -->
+<!--10:01 turning over to devs WDI4 -->
 
-Also encourage them to read any error messages, google them, and ask if still stuck -->
-
+<!--Actually 10:42 -->
 <!--9:55 5 minutes -->
 
 ## Conclusion
@@ -298,5 +334,8 @@ Don't be frustrated by all the new commands because we will definitely have the 
 - How do you switch between branches?
 - How do you merge & delete a branch?
 
+<!--10:15 after questions WDI4-->
+<!--WDI5 10:11 -->
+
 ## Associated Lab
-Refine the skills covered in this workshop with this [lab](https://github.com/den-wdi-2/gh-lab)
+Refine the skills covered in this workshop with this [lab](https://github.com/den-materials/gh-lab)
