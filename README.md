@@ -10,6 +10,7 @@ Adapted for: DEN
 <!--9:08 -->
 <!--9:04 WDI4 -->
 <!--9:03 WDI5 -->
+<!--WDI6 9:02 -->
 <!--9:00 5 minutes -->
 
 <!-- So who remembers Git?
@@ -51,6 +52,7 @@ Today we will show an incredibly easy way to get a front-end website online call
 
 <!--9:07 WDI5 -->
 <!--9:11 -->
+<!--WDI6  9:06 -->
 <!--WDI4 9:08 -->
 <!--9:05 15 minutes -->
 <!--It is vitally important that you parking lot all questions in this section--most questions will be answered by activities by end of class-->
@@ -212,6 +214,7 @@ You can `push` and `pull` those branches easily to save your work up in the clou
 <!--9:20 WDI5 -->
 <!--9:26-->
 <!--9:25 WDI4 -->
+<!--WDI6 9:47 -->
 <!--9:20 5 minutes -->
 
 ## Practice thinking in "branches" - Discussion
@@ -249,6 +252,7 @@ Once you've got it down, switch roles, and do the same process again, so you get
 <!--9:45 talked about diff checking and answered pent-up Qns too -->
 <!--WDI4 9:37-->
 <!--WDI5 9:38 -->
+<!--WDI6 10:18 -->
 <!--9:35 10 minutes -->
 
 ## Create a pull request on GitHub - Catchup
@@ -277,7 +281,9 @@ Follow the instructions below to create a pull request:
 <!--9:44 after demo finished WDI4 -->
 <!--9:52 after devs done WDI4 -->
 <!--10:15 -->
+<!--WDI6 10:27 -->
 <!--9:45 10 minutes -->
+<!--WDI6 10:34 -->
 
 ## GitHub pages - Demo
 
@@ -294,6 +300,8 @@ As long as there is an index.html in your root directory...
 ```bash
 echo "<h1> GitHub pages! </h1>" >> index.html
 ```
+
+...don't forget to `add` and `commit` that file...
 
 ...and we move that code to a `gh-pages` branch...
 
@@ -336,6 +344,7 @@ Don't be frustrated by all the new commands because we will definitely have the 
 
 <!--10:15 after questions WDI4-->
 <!--WDI5 10:11 -->
+<!--WDI6 11:00 -->
 
 ## Associated Lab
 Refine the skills covered in this workshop with this [lab](https://github.com/den-materials/gh-lab)
